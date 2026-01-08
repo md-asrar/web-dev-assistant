@@ -30,12 +30,7 @@ The chatbot works by matching user questions with predefined questions stored in
 
 ## Project Structure
 
-web-dev-assistant/
-     |___ app.py                   # Main Flask Application
-     |___ requirements.txt         #Python dependencies
-     |___ README.md                #Project documentation
-     |___ data/
-            |___ wevdev_faq.json   #Questions and answers used by the chatbot
+web-dev-assistant/                                                                                                                                                                                                            |___ app.py                    # Main Flask Application                                                                                                                                                              |___ requirements.txt          #Python dependencies                                                                                                                                                                  |___ README.md                 #Project documentation                                                                                                                                                                |___ data/                                                                                                                                                                                                                  |___ wevdev_faq.json    #Questions and answers used by the chatbot
 
     
 ## How to Run the Project Locally
