@@ -1,18 +1,19 @@
 # Web Development Assistant Chatbot
 
-A simple Web Development Assistant chatbot built using **Python** and **Flask**.  
-This chatbot answers common beginner-level questions related to **HTML, CSS, JavaScript, Flask, Git, and general web development concepts**.
+This project is a simple rule-based Web Development Assistant chatbot built using Python and Flask.  
+It answers beginner-level questions related to HTML, CSS, JavaScript, Flask, Git, and general web development concepts.
 
-The project uses basic **Natural Language Processing (NLP)** techniques to match user questions with predefined answers stored in a JSON file.
+The chatbot works by matching user questions with predefined questions stored in a JSON file and returning the most relevant answer using basic NLP techniques.
 
 ---
 
 ## Features
 
-- Web-based chat interface
-- Answers FAQs related to web development
-- Uses TF-IDF and cosine similarity for question matching
-- Session-based chat history
+- Web-based chatbot interface
+- Answers common web development questions
+- Supports greetings and general queries
+- Uses TF-IDF and cosine similarity for matching
+- Built with Python and Flask
 - Beginner-friendly and easy to extend
 
 ---
@@ -22,7 +23,7 @@ The project uses basic **Natural Language Processing (NLP)** techniques to match
 - Python
 - Flask
 - HTML & CSS
-- JSON (for FAQ data)
+- JSON (for chatbot knowledge base)
 - scikit-learn (TF-IDF & cosine similarity)
 
 ---
@@ -31,58 +32,38 @@ The project uses basic **Natural Language Processing (NLP)** techniques to match
 
 web-dev-assistant/
 │
-├── app.py # Main Flask application
-├── requirements.txt # Project dependencies
-├── README.md # Project documentation
+├── app.py                  # Main Flask application
+├── requirements.txt        # Python dependencies
+├── README.md               # Project documentation
+│
 └── data/
-   └── webdev_faq.json # Questions and answers dataset
-
-
----
-
-## How to Run the Project
-
-### 1. Install Python
-Make sure Python 3 is installed:
-
-
-### 2. Install Dependencies
-pip install -r requirements.txt
-
-
-### 3. Run the Application
-python app.py
-
-
-### 4. Open in Browser
-Open your browser and go to: http://127.0.0.1:5000/
-
-
+    └── webdev_faq.json     # Questions and answers used by the chatbot
 
 ---
 
-## Example Questions You Can Ask
+## How to Run the Project Locally
 
-- What is HTML?
-- What is CSS?
-- What is JavaScript?
-- What is Flask?
-- What can you do?
-- What are your abilities?
-- Difference between class and id?
-- What is Git?
+1. Open terminal / command prompt  
+2. Navigate to the project folder  
+3. Install dependencies:
+   
+   python -m pip install -r requirements.txt
+
+4. Run the application:
+
+   python app.py
+
+5. Open your browser and go to:
+
+   http://127.0.0.1:5000/
 
 ---
 
-## Purpose of the Project
+## How to Add More Questions
 
-This project was created for **learning purposes** to understand:
-- Flask web applications
-- Basic NLP techniques
-- Working with JSON data
-- Building and deploying beginner-friendly projects
-
-It is suitable for **academic evaluation, certification submission, and portfolio use**.
+- Open `data/webdev_faq.json`
+- Add new question–answer pairs in the same format
+- Restart the Flask server
 
 ---
 
@@ -92,7 +73,7 @@ Md Asrar
 
 ---
 
-## License
+## Note
 
-This project is open for educational use.
-
+This project is created for learning purposes and academic/certification submission.  
+It is intentionally simple to demonstrate understanding of Flask, basic NLP, and project structure.
