@@ -1,0 +1,78 @@
+[
+  {
+    "question": "hi",
+    "answer": "Hello! I am a Web Development Assistant. How can I help you today?"
+  },
+  {
+    "question": "hello",
+    "answer": "Hi there! Feel free to ask me anything about web development."
+  },
+  {
+    "question": "hey",
+    "answer": "Hey! I'm here to help with web development questions."
+  },
+  {
+    "question": "good morning",
+    "answer": "Good morning! How can I assist you with web development today?"
+  },
+  {
+    "question": "good evening",
+    "answer": "Good evening! Ask me anything related to web development."
+  },
+  {
+    "question": "how are you",
+    "answer": "I'm doing well. Ready to help you learn web development."
+  },
+  {
+    "question": "what can you do",
+    "answer": "I am a Web Development Assistant. I can answer questions about HTML, CSS, JavaScript, Python, Flask, and Git."
+  },
+  {
+    "question": "what are your abilities",
+    "answer": "I explain web development concepts, answer common questions, and guide beginners step by step."
+  },
+  {
+    "question": "what questions can you answer",
+    "answer": "You can ask me about HTML, CSS, JavaScript, Flask, Git, and general web development topics."
+  },
+  {
+    "question": "who are you",
+    "answer": "I am an AI-powered Web Development Assistant built using Python, Flask, and NLP techniques."
+  },
+  {
+    "question": "what is html",
+    "answer": "HTML stands for HyperText Markup Language. It is used to structure web pages."
+  },
+  {
+    "question": "what is css",
+    "answer": "CSS stands for Cascading Style Sheets. It is used to style and layout web pages."
+  },
+  {
+    "question": "what is javascript",
+    "answer": "JavaScript is used to add interactivity and dynamic behavior to websites."
+  },
+  {
+    "question": "what is flask",
+    "answer": "Flask is a lightweight Python web framework used to build web applications and APIs."
+  },
+  {
+    "question": "what is git",
+    "answer": "Git is a version control system used to track changes in code."
+  },
+  {
+    "question": "what is github",
+    "answer": "GitHub is a platform for hosting Git repositories and collaborating on projects."
+  },
+  {
+    "question": "what is frontend development",
+    "answer": "Frontend development focuses on the user interface using HTML, CSS, and JavaScript."
+  },
+  {
+    "question": "what is backend development",
+    "answer": "Backend development handles server-side logic, databases, and APIs."
+  },
+  {
+    "question": "what is full stack development",
+    "answer": "Full stack development involves working on both frontend and backend of a web application."
+  }
+]
