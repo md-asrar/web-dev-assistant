@@ -38,8 +38,7 @@ web-dev-assistant/
 └── data/
     └── webdev_faq.json     # Questions and answers used by the chatbot
 
----
-
+    
 ## How to Run the Project Locally
 
 1. Open terminal / command prompt  
