@@ -35,7 +35,6 @@ web-dev-assistant/
 ├── app.py                  # Main Flask application
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
-│
 └── data/
     └── webdev_faq.json     # Questions and answers used by the chatbot
 
