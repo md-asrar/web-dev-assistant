@@ -88,7 +88,7 @@ It is suitable for **academic evaluation, certification submission, and portfoli
 
 ## Author
 
-**Md Asrar**
+Md Asrar
 
 ---
 
