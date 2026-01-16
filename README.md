@@ -1,82 +1,71 @@
 # Web Development Assistant Chatbot
 
-##  Project Overview
-The Web Development Assistant is a Flask-based chatbot designed to help beginners learn web development concepts.  
-It answers frequently asked questions related to HTML, CSS, JavaScript, Flask, Git, and general web development topics.
+This project is a simple rule-based Web Development Assistant chatbot built using Python and Flask.  
+It answers beginner-level questions related to HTML, CSS, JavaScript, Flask, Git, and general web development concepts.
 
-This project uses Natural Language Processing (NLP) techniques (TF-IDF and cosine similarity) to match user queries with relevant answers.
+The chatbot works by matching user questions with predefined questions stored in a JSON file and returning the most relevant answer using basic NLP techniques.
 
 ---
 
-##  Features
-- Interactive web-based chatbot interface
+## Features
+
+- Web-based chatbot interface
 - Answers common web development questions
-- Case-insensitive and punctuation-insensitive input handling
-- Uses TF-IDF and cosine similarity for NLP matching
-- Maintains chat history during a session
-- Beginner-friendly and certificate-ready project
+- Supports greetings and general queries
+- Uses TF-IDF and cosine similarity for matching
+- Built with Python and Flask
+- Beginner-friendly and easy to extend
 
 ---
 
-##  Technologies Used
+## Technologies Used
+
 - Python
 - Flask
-- Scikit-learn (TF-IDF & Cosine Similarity)
 - HTML & CSS
+- JSON (for chatbot knowledge base)
+- scikit-learn (TF-IDF & cosine similarity)
 
 ---
 
-##  Project Structure
+## Project Structure
 
-web-dev-assistant/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-└── data/
-└── webdev_faq.json
+web-dev-assistant/                                                                                                                                                                                                            |___ app.py                    # Main Flask Application                                                                                                                                                              |___ requirements.txt          #Python dependencies                                                                                                                                                                  |___ README.md                 #Project documentation                                                                                                                                                                |___ data/                                                                                                                                                                                                                  |___ wevdev_faq.json    #Questions and answers used by the chatbot
 
+    
+## How to Run the Project Locally
 
----
+1. Open terminal / command prompt  
+2. Navigate to the project folder  
+3. Install dependencies:
+   
+   python -m pip install -r requirements.txt
 
-##  How to Run the Project
+4. Run the application:
 
-1. Clone the repository  
-   git clone <your-github-repository-url>  
-   cd web-dev-assistant  
+   python app.py
 
-2. Install dependencies  
-   python -m pip install -r requirements.txt  
+5. Open your browser and go to:
 
-3. Run the application  
-   python app.py  
-
-4. Open in browser  
-   http://127.0.0.1:5000  
+   http://127.0.0.1:5000/
 
 ---
 
-##  Example Questions You Can Ask
-- What is HTML?
-- What is CSS?
-- What can you do?
-- What is Flask?
-- What is Git?
-- What is frontend development?
+## How to Add More Questions
+
+- Open `data/webdev_faq.json`
+- Add new question–answer pairs in the same format
+- Restart the Flask server
 
 ---
 
-##  Learning Outcome
-- Building Flask web applications
-- Applying NLP techniques for text similarity
-- Normalizing and processing user input
-- Designing a chatbot-style UI
-- Organizing a real-world Python project
+## Author
 
----
-
-## 👤 Author
 Md Asrar
 
-##  Certificate Submission Note
-This project was created for learning purposes and demonstrates the implementation of a Web Development Assistant chatbot using Python, Flask, and basic NLP techniques.
+---
+
+## Note
+
+This project is created for learning purposes and academic/certification submission.  
+It is intentionally simple to demonstrate understanding of Flask, basic NLP, and project structure.
