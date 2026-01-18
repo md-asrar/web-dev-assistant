@@ -1,78 +1,78 @@
 [
   {
     "question": "hi",
-    "answer": "Hello! I am a Web Development Assistant. How can I help you today?"
+    "answer": "Hello! I am your Web Development Assistant. You can ask me questions about HTML, CSS, JavaScript, Flask, Git, and web development."
   },
   {
     "question": "hello",
-    "answer": "Hi there! Feel free to ask me anything about web development."
-  },
-  {
-    "question": "hey",
-    "answer": "Hey! I'm here to help with web development questions."
-  },
-  {
-    "question": "good morning",
-    "answer": "Good morning! How can I assist you with web development today?"
-  },
-  {
-    "question": "good evening",
-    "answer": "Good evening! Ask me anything related to web development."
-  },
-  {
-    "question": "how are you",
-    "answer": "I'm doing well. Ready to help you learn web development."
+    "answer": "Hi there! I’m here to help you learn web development concepts."
   },
   {
     "question": "what can you do",
-    "answer": "I am a Web Development Assistant. I can answer questions about HTML, CSS, JavaScript, Python, Flask, and Git."
-  },
-  {
-    "question": "what are your abilities",
-    "answer": "I explain web development concepts, answer common questions, and guide beginners step by step."
-  },
-  {
-    "question": "what questions can you answer",
-    "answer": "You can ask me about HTML, CSS, JavaScript, Flask, Git, and general web development topics."
-  },
-  {
-    "question": "who are you",
-    "answer": "I am an AI-powered Web Development Assistant built using Python, Flask, and NLP techniques."
+    "answer": "I can explain web development concepts, answer questions about HTML, CSS, JavaScript, Flask, Git, and guide beginners step by step."
   },
   {
     "question": "what is html",
-    "answer": "HTML stands for HyperText Markup Language. It is used to structure web pages."
+    "answer": "HTML stands for HyperText Markup Language. It is used to structure web pages using elements like headings, paragraphs, links, images, and forms."
+  },
+  {
+    "question": "explain html",
+    "answer": "HTML defines the structure of a webpage. It tells the browser what content is a heading, paragraph, image, link, or form."
   },
   {
     "question": "what is css",
-    "answer": "CSS stands for Cascading Style Sheets. It is used to style and layout web pages."
+    "answer": "CSS stands for Cascading Style Sheets. It is used to style web pages by controlling layout, colors, fonts, spacing, and responsiveness."
+  },
+  {
+    "question": "explain css",
+    "answer": "CSS is responsible for how a website looks. It handles design, layout, responsiveness, and visual appearance."
   },
   {
     "question": "what is javascript",
-    "answer": "JavaScript is used to add interactivity and dynamic behavior to websites."
+    "answer": "JavaScript is a programming language used to make websites interactive. It handles user actions, dynamic content, APIs, and animations."
+  },
+  {
+    "question": "explain javascript",
+    "answer": "JavaScript allows developers to add logic and interactivity to web pages, such as button clicks, form validation, and dynamic updates."
+  },
+  {
+    "question": "uses of javascript",
+    "answer": "JavaScript is used for form validation, interactive UI, fetching data from APIs, animations, and building web applications."
   },
   {
     "question": "what is flask",
-    "answer": "Flask is a lightweight Python web framework used to build web applications and APIs."
+    "answer": "Flask is a lightweight Python web framework used to build web applications and REST APIs."
   },
   {
-    "question": "what is git",
-    "answer": "Git is a version control system used to track changes in code."
-  },
-  {
-    "question": "what is github",
-    "answer": "GitHub is a platform for hosting Git repositories and collaborating on projects."
-  },
-  {
-    "question": "what is frontend development",
-    "answer": "Frontend development focuses on the user interface using HTML, CSS, and JavaScript."
+    "question": "why flask",
+    "answer": "Flask is simple, flexible, and easy to learn, making it ideal for beginners and small to medium projects."
   },
   {
     "question": "what is backend development",
-    "answer": "Backend development handles server-side logic, databases, and APIs."
+    "answer": "Backend development focuses on server-side logic, databases, APIs, and application functionality."
+  },
+  {
+    "question": "what is frontend development",
+    "answer": "Frontend development focuses on the user interface and user experience using HTML, CSS, and JavaScript."
   },
   {
     "question": "what is full stack development",
-    "answer": "Full stack development involves working on both frontend and backend of a web application."
+    "answer": "Full stack development involves working on both frontend and backend parts of a web application."
+  },
+  {
+    "question": "what is git",
+    "answer": "Git is a version control system used to track code changes and collaborate with other developers."
+  },
+  {
+    "question": "what is github",
+    "answer": "GitHub is a platform used to host Git repositories, collaborate on projects, and manage code versions."
+  },
+  {
+    "question": "what should i learn first in web development",
+    "answer": "Start with HTML for structure, then CSS for styling, and then JavaScript for interactivity before moving to backend technologies."
+  },
+  {
+    "question": "is html a programming language",
+    "answer": "No, HTML is not a programming language. It is a markup language used to structure content on the web."
   }
 ]
